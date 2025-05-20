@@ -17,7 +17,7 @@ This is a simple command-line banking application written in Python. It simulate
 
 ```bash
 git clone https://github.com/toyontewo/bank_app.git
-cd trust-bank-app
+cd bank_app
 ````
 
 2. **Run the application**
