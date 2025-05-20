@@ -2,8 +2,7 @@
 
 
 # Trust Bank Money App
-
-A simple command-line banking application written in Python. This app simulates a basic banking system allowing users to register, log in, manage their account, and transfer funds—all data is persisted in a CSV file.
+This is a simple command-line banking application written in Python. It simulates a basic banking system that allows users to register, log in, manage their accounts, and transfer funds. All data is obtained from a CSV file.
 
 ## Features
 
@@ -11,30 +10,20 @@ A simple command-line banking application written in Python. This app simulates 
 - ✅ Auto-generate unique usernames and 9-digit account numbers
 - ✅ Secure login using CSV-stored credentials
 - ✅ Deposit and withdraw money
-- ✅ Transfer funds to another user using account number
+- ✅ Transfer funds to another user using the account number
 - ✅ View current account information
 - ✅ CSV file automatically initialized if not present
 
-## File Structure
-
-
-
-.
-├── app.py           # Main banking application logic
-├── user\_data.csv    # Stores all user records (auto-created)
-└── README.md        # Project documentation
-
-````
 
 ```bash
-git clone https://github.com/yourusername/trust-bank-app.git
+git clone https://github.com/toyontewo/bank_app.git
 cd trust-bank-app
 ````
 
 2. **Run the application**
 
 ```bash
-python app.py
+python3 app.py
 ```
 
 3. **Choose an action from the menu**
@@ -47,7 +36,7 @@ Welcome to Trust Bank Money App
 Select an option:
 ```
 
-## 🧾 Sample Registration Fields
+## Sample Registration Fields
 
 ```
 First Name: Toyo
@@ -57,7 +46,7 @@ Password: ********
 Deposit amount ($): 200
 ```
 
-## Notes
+## FYI
 
 * Passwords are stored in **plain text** (for simplicity).
 * This app is **not**, i repeat **NOT** intended for production use.
