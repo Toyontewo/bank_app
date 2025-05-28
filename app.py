@@ -129,12 +129,10 @@ def user_dashboard(user_row):
                 if not receiver_found:
                     print("Receiver not found.")
                     continue
-
-                # Update sender balance
+                
                 user_row['Balance'] = str(sender_balance - amount)
                 update_user_balance(user_row['Username'], user_row['Balance'])
 
-                # Save all updates including receiver
                 with open(CSV_FILE_PATH, mode='w', newline='') as file:
                     writer = csv.DictWriter(file, fieldnames=rows[0].keys())
                     writer.writeheader()
