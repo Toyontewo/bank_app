@@ -3,6 +3,7 @@ import random
 import os
 import re
 from getpass import getpass
+from animation import loading_animation
 
 CSV_FILE_PATH = "user_data.csv"
 
@@ -23,13 +24,14 @@ def register_user():
     f_name = input("Enter Your First Name: ")
     l_name = input("Enter Your Last Name: ")
     email = input("Enter Your Email: ")
-
+    
     if not is_valid_email(email):
         print("Invalid email format. Try again.")
         return
 
     password = getpass("Enter your Password: ")
     password2 = getpass("Re-Enter your Password: ")
+    loading_animation()
 
     if password != password2:
         print("Passwords do not match. Try again!")
@@ -41,6 +43,7 @@ def register_user():
 
     try:
         deposit_amt = float(input("Deposit amount ($): "))
+        loading_animation()
         if deposit_amt <= 100:
             print("Amount must be greater than $100")
             return
@@ -60,11 +63,13 @@ def register_user():
 
 def user_dashboard(user_row):
     while True:
+        loading_animation()
         print("\n--- Account Dashboard ---")
         print("1. View Account Info\n2. Deposit\n3. Withdraw\n4. Transfer\n5. Logout")
         choice = input("Select an option: ")
 
         if choice == '1':
+            loading_animation()
             print(f"\nAccount Info:\nName: {user_row['First Name']} {user_row['Last Name']}\n"
                   f"Email: {user_row['Email']}\nUsername: {user_row['Username']}\n"
                   f"Account Number: {user_row['Account Number']}\nBalance: ${user_row['Balance']}")
@@ -72,6 +77,7 @@ def user_dashboard(user_row):
         elif choice == '2':
             try:
                 amount = float(input("Enter deposit amount: "))
+                loading_animation()
                 if amount <= 0:
                     print("Amount must be positive.")
                     continue
@@ -84,6 +90,7 @@ def user_dashboard(user_row):
         elif choice == '3':
             try:
                 amount = float(input("Enter withdrawal amount: "))
+                loading_animation()
                 current_balance = float(user_row['Balance'])
                 if amount <= 0:
                     print("Amount must be positive.")
@@ -99,7 +106,9 @@ def user_dashboard(user_row):
         elif choice == '4':
             try:
                 receiver_acc = input("Enter receiver's account number: ")
+                loading_animation()
                 amount = float(input("Enter amount to transfer: "))
+                loading_animation()
                 if amount <= 0:
                     print("Amount must be positive.")
                     continue
@@ -148,6 +157,7 @@ def user_dashboard(user_row):
                 print("Invalid input.")
 
         elif choice == '5':
+            loading_animation()
             print("Logging out...")
             break
         else:
@@ -173,7 +183,7 @@ def login_user():
     print("\n--- User Login ---")
     username_input = input("Enter Your Username: ")
     password_input = getpass("Enter Your Password: ")
-
+    loading_animation()
     with open(CSV_FILE_PATH, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:

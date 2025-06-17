@@ -1,5 +1,5 @@
 First Name,Last Name,Email,Username,Account Number,Password,Balance
-Roberto,Wells,ostewart@yahoo.com,robertowells,245609681,pass1234,7735.63
+Roberto,Wells,ostewart@yahoo.com,robertowells,245609681,pass1234,8124.0
 Sarah,Manning,wendypierce@yahoo.com,sarahmanning,408638335,pass1234,7166.32
 Brian,Ferguson,peternorman@saunders-cortez.com,brianferguson,317307571,pass1234,663.69
 James,Parks,powerselizabeth@yahoo.com,jamesparks,943969658,pass1234,6763.72
@@ -15,11 +15,11 @@ Daniel,Blevins,erinmack@floyd.com,danielblevins,408312968,pass1234,5160.24
 Erin,Harrison,iscott@garcia.com,erinharrison,563253572,pass1234,3694.52
 Dennis,Ritter,cheryl52@farrell.org,dennisritter,865117018,pass1234,5948.69
 Paul,Baldwin,thomasgarcia@yahoo.com,paulbaldwin,306978723,pass1234,468.25
-Connie,Marsh,stephenslisa@gmail.com,conniemarsh,391670381,pass1234,6882.4
+Connie,Marsh,stephenslisa@gmail.com,conniemarsh,391670381,pass1234,0.0
 Tammy,Young,hollandsarah@yahoo.com,tammyyoung,384453648,pass1234,4237.86
 Eric,Anderson,donovanjessica@hotmail.com,ericanderson,185541849,pass1234,1186.71
 Lisa,Henry,ashleyjohnston@gmail.com,lisahenry,642846658,pass1234,1612.5
-Kimberly,Martin,debrasmith@gmail.com,kimberlymartin,273035730,pass1234,8124.21
+Kimberly,Martin,debrasmith@gmail.com,kimberlymartin,273035730,pass1234,6882.61
 Dennis,Hardin,bdavis@richards.biz,dennishardin,314655937,pass1234,1386.05
 James,Johnson,heather32@bailey.com,jamesjohnson,142850947,pass1234,7172.34
 Jacob,Butler,beth04@gmail.com,jacobbutler,318017014,pass1234,7593.48
@@ -56,7 +56,7 @@ Clayton,Good,asanchez@gill.com,claytongood,717556078,pass1234,7774.12
 Luke,Howell,soconnell@hotmail.com,lukehowell,995154692,pass1234,6266.63
 George,Johnson,markbrown@fowler.com,georgejohnson,825165565,pass1234,1265.77
 Michael,Bailey,prodriguez@yang.biz,michaelbailey,790292834,pass1234,7801.91
-Shelly,Mahoney,glassalexandra@fuller.org,shellymahoney,936246469,pass1234,3285.41
+Shelly,Mahoney,glassalexandra@fuller.org,shellymahoney,936246469,pass1234,3985.41
 Cheryl,Roach,wrightjo@ryan.biz,cherylroach,931312475,pass1234,2980.49
 Brenda,Davis,steveparker@hunter-rhodes.info,brendadavis,739930741,pass1234,6697.11
 Kristin,Ellis,mason30@wagner.org,kristinellis,589135162,pass1234,8875.49
@@ -99,3 +99,8 @@ Lindsay,Marshall,samantha02@yahoo.com,lindsaymarshall,485650395,pass1234,3745.46
 Lisa,Jones,khardy@molina.net,lisajones,996389179,pass1234,5235.56
 Donna,Roberts,emily95@white.com,donnaroberts,772162796,pass1234,6867.69
 Danny,Doyle,tkeller@hester.org,dannydoyle,216455946,pass1234,3779.27
+sam,smith,samsmith@tbail.com,samsmith,539006793,130620,507035.63
+Toyo,Ntewo,toyob4lyf@gmail.com,toyontewo,695287097,130620,10000000000.0
+Toro,Ntewo,torontewo@yahoo.com,torontewo,267662284,130620,500000000.0
+Ini,Edo,inieedo@gmail.com,iniedo,858831965,130620,4000000.0
+Telegram,App,teleapp@gmail.com,telegramapp,885786725,130620,300000.0
