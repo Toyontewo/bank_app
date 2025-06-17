@@ -7,6 +7,7 @@ from animation import loading_animation
 
 CSV_FILE_PATH = "user_data.csv"
 
+CSV_ALT_FILE = "user_alternative.csv"
 
 def is_valid_email(email):
     return re.match(r"[^@]+@[^@]+\.[^@]+", email)
